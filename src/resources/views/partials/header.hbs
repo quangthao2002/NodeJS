@@ -1,0 +1,54 @@
+<ul
+  class="nav nav-pills nav-fill gap-2 p-1 small bg-primary shadow-sm"
+  id="pillNav2"
+  role="tablist"
+  style="
+    --bs-nav-link-color: var(--bs-white);
+    --bs-nav-pills-link-active-color: var(--bs-primary);
+    --bs-nav-pills-link-active-bg: var(--bs-white);
+  "
+>
+  <li class="nav-item" role="presentation">
+    <button
+      class="nav-link active rounded-5"
+      id="home-tab2"
+      data-bs-toggle="tab"
+      type="button"
+      role="tab"
+      aria-selected="true"
+    >
+      <a class="text-decoration-none text-black" href="/">Home</a>
+    </button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button
+      class="nav-link rounded-5 text-black"
+      id="contact-tab2"
+      data-bs-toggle="tab"
+      type="button"
+      role="tab"
+      aria-selected="false"
+    >
+      Contact
+    </button>
+  </li>
+  <div class="dropdown">
+    <button
+      class="btn btn-light dropdown-toggle"
+      type="button"
+      data-bs-toggle="dropdown"
+      aria-expanded="false"
+    >
+      Quang Thảo
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="/courses/create">Thêm khóa học</a></li>
+      <div class="dropdown-driver"></div>
+      <li>
+        <a class="dropdown-item" href="/me/stored/courses">Khóa học của tôi</a>
+      </li>
+      <div class="dropdown-driver"></div>
+      <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+    </ul>
+  </div>
+</ul>
